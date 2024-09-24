@@ -527,8 +527,8 @@ lazy val doobie = (project in file("doobie"))
   .settings(
     name := "doobie",
     scalaVersion := scala3Version,
-    libraryDependencies += "org.tpolecat" %% "doobie-core" % "1.0.0-RC2",
-    libraryDependencies += "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC2"
+    libraryDependencies += "org.tpolecat" %% "doobie-core" % "1.0.0-RC6",
+    libraryDependencies += "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC6"
   )
 
 // Scala Native Project is disabled as it needs clang to installed in the target machine.
@@ -564,8 +564,8 @@ lazy val scala3_libraries = (project in file("scala3-libraries"))
     libraryDependencies ++= Seq(
       "com.github.japgolly.clearconfig" %% "core" % "3.1.0",
       "org.scalameta" %% "munit" % "0.7.29" % Test,
-      "org.tpolecat" %% "doobie-core" % "1.0.0-RC2",
-      "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC2"
+      "org.tpolecat" %% "doobie-core" % "1.0.0-RC6",
+      "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC6"
     )
   )
 
