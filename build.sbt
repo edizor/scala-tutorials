@@ -139,7 +139,7 @@ lazy val scala_core_dates =
       scalaVersion := scala3Version,
       libraryDependencies ++= scalaTestDeps,
       libraryDependencies += "joda-time" % "joda-time" % "2.12.5",
-      libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.32.0",
+      libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.34.0",
       libraryDependencies += "com.typesafe" % "config" % "1.4.3"
     )
 
